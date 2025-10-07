@@ -22,6 +22,7 @@ return new class extends Migration
             $table->boolean('is_active')->default(true);
             //$table->timestamps('published_at')->nullable(); @todo: ilerisi için güzel bir özellik
             $table->timestamps();
+
         });
     }
 
